@@ -1,0 +1,49 @@
+html,body{
+    height: 100%;
+
+}
+
+.container{
+background-color: aqua;
+padding: 20px;
+display: block;
+width: 1000px;
+margin: 0 auto;
+}
+
+.container-header{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar > img{
+    width: 80px;
+    height: 76px;
+    margin: 5px;
+} 
+.nama{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.nama > input{
+    border: none;
+    flex-direction: column;
+}
+
+.nama > input:first-child  {
+    font-size: 20px;
+}
+
+.deskripsi > textarea{
+    width: 995px;
+    height: 73px;
+    border: none;
+}
+
+
+

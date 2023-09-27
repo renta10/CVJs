@@ -1,0 +1,139 @@
+input{
+    border: none;
+}
+.container *{
+    background-color: gainsboro;
+}
+
+
+.container{
+background-color:gainsboro;
+padding: 20px;
+display: block;
+width: 1000px;
+margin: 0 auto;
+}
+
+.container-header{
+    background-color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar > img{
+    width: 80px;
+    height: 76px;
+    margin: 5px;
+} 
+.nama{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.nama > input{
+    border: none;
+    flex-direction: column;
+    background-color: gainsboro;
+
+}
+
+.nama > input:first-child  {
+    font-size: 20px;
+}
+.deskripsi >i{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
+.deskripsi > textarea{
+    width: 995px;
+    border: none;
+    margin-left: 23px;
+    resize: none;
+    overflow: hidden;
+    height: 150px;
+    background-color: gainsboro;
+}
+
+
+.container-main{
+    display: flex;
+    height: 500px;
+}
+
+.mainKiri{
+    padding-left: 5px;
+    padding-top: 0;
+    width: 50%;
+}
+
+.mainKiri >h4{
+    margin: 0;
+}
+
+.tanggal1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+
+.tanggal2{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding-top: 5px;
+}
+
+.sub-mainKiri{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+
+
+}
+
+.fa-briefcase:before {
+    content: "\f0b1";
+    margin-right: 3px;
+}
+
+.mainKanan{
+    padding-left: 5px;
+    padding-top: 0px;
+    width: 50%;
+    border-left: 5px solid black;
+
+}
+
+.sub-mainKanan{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.mainKanan > h4{
+    padding: 0;
+    margin: 0;
+}
+.anak2{
+    padding-top: 10px;
+    padding-bottom: 54px;
+}
+
+.range{
+    padding-top: 20px;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    j
+}
